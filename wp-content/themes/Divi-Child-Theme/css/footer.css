@@ -1,0 +1,25 @@
+/* Elements aligned to top */
+
+/*
+#footer .et_pb_widget.widget_nav_menu .widgettitle {
+	line-height: 1;
+}
+
+#footer-nav {display: none;}*/
+#footer-bottom {display: none;}
+
+#main-footer .footer-widget .fwidget {
+    margin-bottom: 10px!important;
+}
+#main-footer .menu{
+    padding: 0;
+    margin: 0;
+}
+
+#main-footer .menu li{
+    padding: 0;
+}
+
+#main-footer .menu li:before{
+    content: none;
+}

@@ -1,0 +1,125 @@
+/* WooCommerce rewrite */
+
+/*
+ * Layout
+ */
+body.error404 #main-content  #sidebar,
+.woocommerce.woocommerce-page #left-area{
+    float: none;
+    padding-right: 0;
+    width: auto;
+}
+
+body.error404 #main-content  #sidebar,
+.woocommerce.woocommerce-page #sidebar{
+    display: none;
+}
+
+body.error404 #main-content .container:before,
+body.error404 #main-content .container:after,
+.woocommerce.woocommerce-page #main-content .container:before,
+.woocommerce.woocommerce-page #main-content .container:after{
+    content: none;
+}
+
+@media only screen and (min-width: 981px){
+    body.error404 #main-content .container,
+    body.woocommerce-page #main-content .container{
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    body.error404 #main-content .container,
+    body.woocommerce-page #main-content .container{
+        padding-top: 30px;
+    }
+}
+
+/*
+ * Buttons
+ */
+body.et_pb_button_helper_class .et_pb_button,
+.woocommerce.et_pb_button_helper_class a.button.alt,
+.woocommerce-page.et_pb_button_helper_class a.button.alt,
+.woocommerce.et_pb_button_helper_class button.button.alt,
+.woocommerce-page.et_pb_button_helper_class button.button.alt,
+.woocommerce.et_pb_button_helper_class input.button.alt,
+.woocommerce-page.et_pb_button_helper_class input.button.alt,
+.woocommerce.et_pb_button_helper_class #respond input#submit.alt,
+.woocommerce-page.et_pb_button_helper_class #respond input#submit.alt,
+.woocommerce.et_pb_button_helper_class #content input.button.alt,
+.woocommerce-page.et_pb_button_helper_class #content input.button.alt,
+.woocommerce.et_pb_button_helper_class a.button,
+.woocommerce-page.et_pb_button_helper_class a.button,
+.woocommerce.et_pb_button_helper_class button.button,
+.woocommerce-page.et_pb_button_helper_class button.button,
+.woocommerce.et_pb_button_helper_class input.button,
+.woocommerce-page.et_pb_button_helper_class input.button,
+.woocommerce.et_pb_button_helper_class #respond input#submit,
+.woocommerce-page.et_pb_button_helper_class #respond input#submit,
+.woocommerce.et_pb_button_helper_class #content input.button,
+.woocommerce-page.et_pb_button_helper_class #content input.button,
+.woocommerce #respond input#submit.disabled,
+.woocommerce #respond input#submit:disabled,
+.woocommerce #respond input#submit:disabled[disabled],
+.woocommerce a.button.disabled,
+.woocommerce a.button:disabled,
+.woocommerce a.button:disabled[disabled],
+.woocommerce button.button.disabled,
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled],
+.woocommerce input.button.disabled,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled],
+.woocommerce #respond input#submit.disabled:hover,
+.woocommerce #respond input#submit:disabled:hover,
+.woocommerce #respond input#submit:disabled[disabled]:hover,
+.woocommerce a.button.disabled:hover,
+.woocommerce a.button:disabled:hover,
+.woocommerce a.button:disabled[disabled]:hover,
+.woocommerce button.button.disabled:hover,
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled]:hover,
+.woocommerce input.button.disabled:hover,
+.woocommerce input.button:disabled:hover,
+.woocommerce input.button:disabled[disabled]:hover{
+    color: white;
+    background: #1e73be!important;
+    border-color: #1e73be!important;
+}
+
+body.et_pb_button_helper_class .et_pb_button:hover,
+.woocommerce.et_pb_button_helper_class a.button.alt:hover,
+.woocommerce-page.et_pb_button_helper_class a.button.alt:hover,
+.woocommerce.et_pb_button_helper_class button.button.alt:hover,
+.woocommerce-page.et_pb_button_helper_class button.button.alt:hover,
+.woocommerce.et_pb_button_helper_class input.button.alt:hover,
+.woocommerce-page.et_pb_button_helper_class input.button.alt:hover,
+.woocommerce.et_pb_button_helper_class #respond input#submit.alt:hover,
+.woocommerce-page.et_pb_button_helper_class #respond input#submit.alt:hover,
+.woocommerce.et_pb_button_helper_class #content input.button.alt:hover,
+.woocommerce-page.et_pb_button_helper_class #content input.button.alt:hover,
+.woocommerce.et_pb_button_helper_class a.button:hover,
+.woocommerce-page.et_pb_button_helper_class a.button:hover,
+.woocommerce.et_pb_button_helper_class button.button:hover,
+
+.woocommerce-page.et_pb_button_helper_class button.button:hover,
+.woocommerce.et_pb_button_helper_class input.button:hover,
+.woocommerce-page.et_pb_button_helper_class input.button:hover,
+.woocommerce.et_pb_button_helper_class #respond input#submit:hover,
+.woocommerce-page.et_pb_button_helper_class #respond input#submit:hover,
+.woocommerce.et_pb_button_helper_class #content input.button:hover,
+.woocommerce-page.et_pb_button_helper_class #content input.button:hover{
+    color: white;
+    background: rgba(30,115,190,0.84) !important;
+    border-color: #1e73be !important;
+}
+
+/*
+ * Messages
+ */
+.woocommerce-message{
+    color: inherit!important;
+    background: #eee!important;
+}

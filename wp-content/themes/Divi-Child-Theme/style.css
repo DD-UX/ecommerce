@@ -1,0 +1,17 @@
+/*
+Theme Name: Divi Child Theme
+Description: A child theme to house custom coding which modifies the Divi parent theme by Elegant Themes. Includes default line numbers where the code was taken from in the parent theme.
+Author:   Diego Diaz
+Template: Divi
+*/
+
+@import url("../Divi/style.css");
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+@import url("css/general_settings.css");
+@import url("css/header.css");
+@import url("css/footer.css");
+@import url("css/helpers.css");
+@import url("css/swiper.css");
+
+

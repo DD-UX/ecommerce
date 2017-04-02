@@ -1,0 +1,12 @@
+/* Transitions */
+a {
+    transition: all 200ms ease-in;
+}
+
+/* Transitions */
+.et_pb_custom_button_icon.et_pb_button:after {
+    font-size: 1em;
+    margin-left: 5px;
+    top: 50%;
+    margin-top: -12px;
+}
